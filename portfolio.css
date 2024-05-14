@@ -490,7 +490,7 @@ footer a {
 }
 #services{
     width:100%;
-    height:60vh;
+    height:100vh;
     padding:40px 20px;
     align-items:center;
     justify-content:center;
@@ -572,13 +572,13 @@ opacity:1;
 
 .service_row p{
     color:white;
-    font-size:18px;
+    font-size:14px;
     font-family:'poppins';
     text-align:left;
 }
 .service_row h5{
     color:rgb(212, 157, 157);
-    font-size:24px;
+    font-size:20px;
     font-family:sans-serif;
     text-align:center;
     margin-top:10px;
@@ -783,13 +783,17 @@ opacity:1;
     width:100%;
 
    }
+   .description p{
+    font-size:14px;
+   }
    .experience_div{
     grid-template-columns:60px 60px 60px ;
    }
+   
    .service_column{
     display:grid;
-    grid-template-columns:150px 150px;
-    grid-template-rows:180px 180px;
+   
+    grid-template-rows:100px 100px;
        margin-left:30px;
        margin-bottom:100px;
    }
@@ -802,7 +806,7 @@ opacity:1;
 
     }
     .service_row p{
-        font-size:10px;
+        font-size:9px;
     }
     #services h2{
         text-align:center;
@@ -811,6 +815,10 @@ opacity:1;
     }
     #services p{
         font-size:14px;
+    }
+    .nothing p{
+        font-size:12px;
+        margin-top:30px;
     }
     
     #contact{
@@ -830,7 +838,7 @@ opacity:1;
         
     }
     #projects{
-        margin-bottom:40%;
+        margin-bottom:60%;
         width:100%;
     }
    
