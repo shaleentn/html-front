@@ -783,17 +783,21 @@ opacity:1;
     width:100%;
 
    }
+   .row p{
+    font-size:8px;
+   }
    .description p{
     font-size:14px;
    }
    .experience_div{
-    grid-template-columns:60px 60px 60px ;
+    grid-template-columns:50px 50px 50px ;
+    grid-template-rows:30px 30px;
    }
    
    .service_column{
     display:grid;
    
-    grid-template-rows:100px 100px;
+    grid-template-rows:120px 120px;
        margin-left:30px;
        margin-bottom:100px;
    }
@@ -806,7 +810,7 @@ opacity:1;
 
     }
     .service_row p{
-        font-size:9px;
+        font-size:7px;
     }
     #services h2{
         text-align:center;
@@ -821,19 +825,21 @@ opacity:1;
         margin-top:30px;
     }
     
+
     #contact{
-        width:90%;
+        width:100%;
         margin-top:20%;
-        margin-left:2px;
+        
         margin:auto;
        
     }.com{
         flex-direction:column;
+        
     }
     .column{
         grid-template-columns: 150px 150px;
         grid-template-rows:100px 100px 100px ;
-        width:70%;
+        width:100%;
         gap:2rem;
         
     }
